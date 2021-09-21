@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>code元素演示</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="keywords" content="搜索引擎用关键词">
+    <meta name="description" content="简介">
+    <meta name="author" content="作者">
+    <style>
+        ul.a {list-style-type: square;}
+        ul.b {list-style-type: disc;}
+        ul.c {list-style-type: circle;}
+        ul.d {list-style-type: none;}
+        ul.e{list-style-image:url("img/番茄炒蛋.jpg");}
+        <!--表格样式-->
+        table{border:1px solid black;
+        border-collapse: collapse;
+        }
+        th,td{
+        border: 1px solid black;
+        padding:5px;}
+
+        caption{
+        padding:5px;
+        }
+
+        thead th{
+        background:grey;
+        color:white}
+        tbody th{
+        background:pink;
+        color:blue}
+        tfoot th{
+        background:blue;
+        color:pink}
+        }
+    </style>
+</head>
+<body>
+<!--演示code元素的使用-->
+    <p>HTML中注释的语法是</p><code>!--在此填写注释内容--</code>
+    <var>程序变量</var>
+    <kbd>用户输入内容</kbd>
+    <samp>表示程序输出</samp>
+    <p>孔子有云<q>学而不思则罔,思而不学则殆</q><!-- q加双引号--></p>
+    <blockquote>段落缩进</blockquote><!--引用-->
+    <cite>标题</cite>
+    <abbr title="开摆">简称/缩写</abbr>
+    <P><dfn>HTML</dfn><!--术语-->超文本标记语言</P>
+    <address>联系信息</address>
+    <!--拼音-->
+    <ruby>魑<rt>chī</rt></rp></ruby>
+    <ruby>魅<rp><rt>meì</rt></rp></ruby>
+    <ruby>魍<rp><rt>wāng</rt></rp></ruby>
+    <ruby>魉<rp><rt>liǎng</rt></rp></ruby>
+    <!--从右往左-->
+    <bdo dir="rtl">倒着读</bdo>
+    <!--重要(加粗)-->
+    <strong>光头</strong>
+    <!--加粗(普通)-->
+    <b>啊对对对</b>
+    <!--强调(斜体)-->
+    <em>学习</em>
+    <!--斜体(普通)-->
+    <i>啊对对对</i>
+    <del>伞兵</del><ins>傻逼</ins>
+    <s>抛瓦</s><u>发胶</u>
+    <!--标记-->
+    <mark>喜欢我狗头吗</mark>
+    <p>E=MC<sup>2</sup></p>
+    <p>Mg+ZnSO<sub>4</sub>=MgSO<sub>4</sub>+Zn</p>
+    <small>本次活动最终解释权归我所有</small>
+    <!--ul无序列表-->
+    <ul class="a">
+        <li>嘉心糖</li>
+        <li>顶碗人</li>
+        <li>乃淇琳</li>
+        <li>皇珈骑士</li>
+        <li>贝极星</li>
+    </ul>
+<ul class="b">
+    <li>嘉心糖</li>
+    <li>顶碗人</li>
+    <li>乃淇琳</li>
+    <li>皇珈骑士</li>
+    <li>贝极星</li>
+</ul>
+<ul class="c">
+    <li>嘉心糖</li>
+    <li>顶碗人</li>
+    <li>乃淇琳</li>
+    <li>皇珈骑士</li>
+    <li>贝极星</li>
+</ul>
+<ul class="d">
+    <li>嘉心糖</li>
+    <li>顶碗人</li>
+    <li>乃淇琳</li>
+    <li>皇珈骑士</li>
+    <li>贝极星</li>
+</ul>
+<ul class="e">
+    <li>嘉心糖</li>
+    <li>顶碗人</li>
+    <li>乃淇琳</li>
+    <li>皇珈骑士</li>
+    <li>贝极星</li>
+</ul>
+<ul class="f">
+    <li>嘉心糖</li>
+    <li>顶碗人</li>
+    <ul>
+        <li>嘉晚饭</li>
+        <li>果丹皮</li>
+        <li>乃all</li>
+    </ul>
+    <li>乃淇琳</li>
+    <li>皇珈骑士</li>
+    <li>贝极星</li>
+</ul>
+    <!--ol有序列表-->
+    <ol type="I" start="7" reversed>
+        <li>嘉心糖</li>
+        <li>顶碗人</li>
+        <li>乃淇琳</li>
+        <li>皇珈骑士</li>
+        <li>贝极星</li>
+    </ol>
+    <!--dl定义列表-->
+    <dl>
+        <dt>主题</dt>
+        <dd>描述</dd>
+        <dt>嘉然</dt>
+        <dd>嘉然是乐华娱乐和字节跳动合作推出的虚拟偶像A-soul中的一员</dd>
+    </dl>
+    <!--table定义表格-->
+    <table>
+        <caption>人类群星闪耀时</caption>
+        <th>姓名</th>
+        <th>年龄</th>
+        <tr>
+            <td>张三</td>
+            <td>33</td>
+        </tr>
+        <tr>
+            <td>李四</td>
+            <td>44</td>
+        </tr>
+    </table>
+    <table>
+        <thead>
+        <th>是这个样子</th>
+        </thead>
+        <tbody>
+        <th>没有办法啊</th>
+        </tbody>
+        <tfoot>
+        <th colspan="3">我也很难做</th>
+        </tfoot>
+    </table>
+    <table>
+        <colgroup>
+            <col style="background:red">
+            <col span="2" style="background:green">
+        </colgroup>
+        <tr>
+            <td>1</td>
+            <td rowspan="3">2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>9</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,29 @@
+        h1{
+        text-align:center;
+        -webkit-text-stroke:1.0px #000000;
+        color: red;}
+        h2{
+        margin-left:60%;
+        -webkit-text-stroke:1.0px #999999;
+        color:black;
+        }
+        p{
+        text-indent:32px;
+        font-size:16px;
+        line-height:32px
+        }
+        img{
+        position:absolute;
+        left:50%
+        margin-left:-128px;
+        }
+        body{
+        background-image:url("../img/给心心.jpg")
+        }
+        pre{
+        text-indent:32px;
+        font-size:16px;
+        line-height:32px;
+        -webkit-text-stroke:1.0px #000000;
+                color:pink
+        }

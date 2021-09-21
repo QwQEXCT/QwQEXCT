@@ -1,0 +1,1 @@
+document.write("我是个嘉心糖!");
